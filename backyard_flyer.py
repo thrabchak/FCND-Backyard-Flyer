@@ -121,7 +121,7 @@ class BackyardFlyer(Drone):
         """
         print("waypoint transition")
 
-        time.sleep(2)
+        time.sleep(.5)
 
         if self.loops > 0:
             self.landing_transition()
